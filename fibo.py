@@ -17,5 +17,8 @@ else:
     print ("The fibonacci sequence of the numbers is:")  
     while count < n_terms:  
         print(n_1)  
-        nth = n_1 + n_2  
+        nth = n_1 + n_2 
+        n_1 = n_2  
+        n_2 = nth  
+        count += 1  
       
